@@ -8,6 +8,7 @@
             "args": [
                 "-g",
                 "${file}",
+                "-I${fileDirname}/tlpi/tlpi-book/lib",
                 "-o",
                 "${fileDirname}/out/${fileBasenameNoExtension}.out",
                 "-fno-omit-frame-pointer"
